@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <button id="night-mode-toggle">Mode Nuit</button>
+
+    <title>Gestion des Produits</title>
+</head>
+<body>
+
+<h1>Gestion des Produits</h1>
+
+<input type="text" id="search" placeholder="Rechercher un produit...">
+<button id="reset">Réinitialiser</button>
+
+<table>
+    <thead>
+    <tr>
+        <th>Nom</th>
+        <th>Prix</th>
+        <th>Actions</th>
+    </tr>
+    </thead>
+    <tbody id="product-list">
+    <!-- Les produits seront insérés ici dynamiquement -->
+    </tbody>
+</table>
+
+<div class="total">
+    Total : <span id="total-price">0.00</span> €
+</div>
+
+<script src="index.js"></script>
+
+</body>
+</html>
